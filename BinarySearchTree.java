@@ -31,7 +31,7 @@ public class BinarySearchTree {
             return;
         }
         Inorder(root.Left);
-        System.out.println(root.data + " ");
+        System.out.print(root.data + " ");
         Inorder(root.Right);
     }
     public static void PreOrder(Node root){
