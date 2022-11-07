@@ -57,14 +57,14 @@ public class BinarySearchTree {
         }
     }
     public static void main(String[] args) {
-        int[] arr = {4,2,6,1,8,3};
+        int[] arr = {423,414,524,856,121,429,978,2113};
         Node root = null;
         for (int i = 0; i < arr.length; i++) {
             root = Insert(root,arr[i]);
         }
         Inorder(root);
         System.out.println();
-        if (Search(root,1)){
+        if (Search(root,524){
             System.out.println("Found");
         }
         else {
